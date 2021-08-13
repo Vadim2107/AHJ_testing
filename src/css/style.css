@@ -48,10 +48,16 @@ form {
 button {
     color: #fff;
     background-color: #5EB462;
-    border: 1px solid #5EB462;
+    border: 1px solid #1c691c;
     border-radius: 4px;
     width: 130px;
     box-sizing: border-box;
     padding: 7px;
     margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #1c691c;    
 }
