@@ -1,5 +1,5 @@
 export default function getValidCreditCard(value) {
-  if (/[^0-9-\s]+/.test(value) || value.length < 13) return false;
+  if (/[^0-9]+/.test(value) || value.length < 13) return false;
   let sum = 0;
 
   // eslint-disable-next-line no-plusplus
