@@ -32,19 +32,19 @@ formBtn.addEventListener('click', (e) => {
     } else {
       cardImg.classList.add('card-active');
       if (cardName === '.card-visa') {
-        name.innerHTML = `<span data-id='valid'>This credit cards issuer is VISA</span>`;
+        name.innerHTML = '<span>This credit cards issuer is VISA</span>';
       } else if (cardName === '.card-american') {
-        name.innerHTML = `<span data-id='valid'>This credit cards issuer is American Express</span>`;
+        name.innerHTML = '<span>This credit cards issuer is American Express</span>';
       } else if (cardName === '.card-master') {
-        name.innerHTML = `<span data-id='valid'>This credit cards issuer is MasterCard</span>`;
+        name.innerHTML = '<span>This credit cards issuer is MasterCard</span>';
       } else if (cardName === '.card-mir') {
-        name.innerHTML = `<span data-id='valid'>This credit cards issuer is МИР</span>`;
+        name.innerHTML = '<span>This credit cards issuer is МИР</span>';
       } else if (cardName === '.card-jcb') {
-        name.innerHTML = `<span data-id='valid'>This credit cards issuer is JCB</span>`;
+        name.innerHTML = '<span>This credit cards issuer is JCB</span>';
       } else if (cardName === '.card-discover') {
-        name.innerHTML = `<span data-id='valid'>This credit cards issuer is Discover</span>`;
+        name.innerHTML = '<span>This credit cards issuer is Discover</span>';
       } else if (cardName === '.card-diners') {
-        name.innerHTML = `<span data-id='valid'>This credit cards issuer is Diners Club</span>`;
+        name.innerHTML = '<span>This credit cards issuer is Diners Club</span>';
       }
       name.classList.remove('hidden');
       // form.reset();
