@@ -8,6 +8,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
+    filename: 'app.bundle.js',
   },
   module: {
     rules: [
@@ -33,17 +34,8 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpg|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              mimetype: 'image/png',
-              limit: false,
-              esModule: false,
-            },
-          },
-        ],
+        test: /\.png$/,
+        type: 'asset/resource',
       },
     ],
   },

@@ -1,9 +1,2 @@
 import './css/style.css';
 import './js/app';
-import './img/american.png';
-import './img/diners-club.png';
-import './img/discover.png';
-import './img/jcb.png';
-import './img/mastercard.png';
-import './img/mir.png';
-import './img/visa.png';
