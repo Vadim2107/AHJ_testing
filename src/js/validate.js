@@ -2,8 +2,7 @@ export default function getValidCreditCard(value) {
   if (/[^0-9]+/.test(value) || value.length < 13) return false;
   let sum = 0;
 
-  // eslint-disable-next-line no-plusplus
-  for (let i = 0; i < value.length; i++) {
+  for (let i = 0; i < value.length; i += 1) {
     let cardNum = parseInt(value[i], 10);
 
     if ((value.length - i) % 2 === 0) {

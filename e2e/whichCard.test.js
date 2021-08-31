@@ -1,4 +1,4 @@
-import whichCard from '../whichCard';
+import whichCard from '../src/js/whichCard';
 
 test.each([
   ['visa for valid user card', '4222222222222', '.card-visa'],
