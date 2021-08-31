@@ -8,7 +8,7 @@ export default function whichCard(value) {
   }
 
   if (value.length === 16 && /^2/.test(value)) {
-      return '.card-mir';
+    return '.card-mir';
   }
 
   if (value.length === 15 && /^3[47]/.test(value)) {
@@ -20,7 +20,7 @@ export default function whichCard(value) {
   }
 
   if ((value.length === 16 || value.length === 19) && /^6(?:011|5)/.test(value)) {
-      return '.card-discover';
+    return '.card-discover';
   }
 
   if (value.length === 14 && /^3(?:0[0-5]|[68])/.test(value)) {
