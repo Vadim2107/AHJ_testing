@@ -1,4 +1,4 @@
-import getValidCreditCard from '../src/js/validate';
+import getValidCreditCard from '../validate';
 
 test.each([
   ['true for valid user card', '379513078397192', true],
